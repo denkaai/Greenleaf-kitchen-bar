@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import SectionTitle from "../components/SectionTitle";
 import { MapPin, Phone, Mail, Clock, CheckCircle, Send } from "lucide-react";
@@ -38,21 +37,21 @@ export default function Contact() {
                                 <MapPin size={24} className="text-highlight shrink-0 mt-1" />
                                 <div>
                                     <h4 className="text-luxury font-semibold mb-1">Location</h4>
-                                    <p className="text-luxury/50 text-sm">Kamakis, Kenya</p>
+                                    <p className="text-luxury/50 text-sm">[LOCATION]</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
                                 <Phone size={24} className="text-highlight shrink-0 mt-1" />
                                 <div>
                                     <h4 className="text-luxury font-semibold mb-1">Phone</h4>
-                                    <p className="text-luxury/50 text-sm">0712092244</p>
+                                    <p className="text-luxury/50 text-sm">[PHONE_NUMBER]</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
                                 <Mail size={24} className="text-highlight shrink-0 mt-1" />
                                 <div>
                                     <h4 className="text-luxury font-semibold mb-1">Email</h4>
-                                    <p className="text-luxury/50 text-sm">info@greenleafkitchen.co.ke</p>
+                                    <p className="text-luxury/50 text-sm">[EMAIL_ADDRESS]</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
@@ -69,7 +68,7 @@ export default function Contact() {
                             <div className="text-center">
                                 <MapPin size={40} className="text-highlight/40 mx-auto mb-3" />
                                 <p className="text-luxury/30 text-sm">Google Maps Integration</p>
-                                <p className="text-luxury/20 text-xs">Kamakis, Kenya</p>
+                                <p className="text-luxury/20 text-xs">[LOCATION]</p>
                             </div>
                         </div>
                     </motion.div>

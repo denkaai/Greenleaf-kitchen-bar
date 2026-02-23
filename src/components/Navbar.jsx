@@ -29,8 +29,8 @@ export default function Navbar() {
     return (
         <nav
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled
-                    ? "bg-primary/95 backdrop-blur-md shadow-lg py-3"
-                    : "bg-transparent py-5"
+                ? "bg-primary/95 backdrop-blur-md shadow-lg py-3"
+                : "bg-transparent py-5"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
@@ -49,8 +49,8 @@ export default function Navbar() {
                             <Link
                                 to={link.path}
                                 className={`text-sm uppercase tracking-[3px] font-body transition-colors duration-300 ${location.pathname === link.path
-                                        ? "text-highlight"
-                                        : "text-luxury/80 hover:text-highlight"
+                                    ? "text-highlight"
+                                    : "text-luxury/80 hover:text-highlight"
                                     }`}
                             >
                                 {link.name}
@@ -62,7 +62,7 @@ export default function Navbar() {
                 {/* Desktop Actions */}
                 <div className="hidden lg:flex items-center gap-4">
                     <a
-                        href="https://wa.me/254712092244"
+                        href="[WHATSAPP_LINK]"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 text-sm text-highlight border border-highlight/30 px-4 py-2 rounded-full hover:bg-highlight/10 transition-all duration-300"
@@ -104,8 +104,8 @@ export default function Navbar() {
                                     key={link.name}
                                     to={link.path}
                                     className={`text-lg uppercase tracking-[3px] font-body ${location.pathname === link.path
-                                            ? "text-highlight"
-                                            : "text-luxury/80"
+                                        ? "text-highlight"
+                                        : "text-luxury/80"
                                         }`}
                                 >
                                     {link.name}

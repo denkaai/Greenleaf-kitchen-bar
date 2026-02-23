@@ -45,11 +45,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-luxury/50 text-sm">
                 <MapPin size={16} className="text-highlight mt-0.5 shrink-0" />
-                Kamakis, Kenya
+                [LOCATION]
               </li>
               <li className="flex items-start gap-3 text-luxury/50 text-sm">
                 <Phone size={16} className="text-highlight mt-0.5 shrink-0" />
-                0712092244
+                [PHONE_NUMBER]
               </li>
               <li className="flex items-start gap-3 text-luxury/50 text-sm">
                 <Clock size={16} className="text-highlight mt-0.5 shrink-0" />

@@ -17,9 +17,9 @@ const FEATURED_DISHES = [
 ];
 
 const TESTIMONIALS = [
-    { name: "Amara K.", text: "An absolutely divine dining experience. The ambiance and flavors are unmatched in Nairobi.", rating: 5 },
-    { name: "David M.", text: "GreenLeaf is our go-to for celebrations. Every dish tells a story of quality and passion.", rating: 5 },
-    { name: "Sofia L.", text: "From the cocktails to the desserts, every detail speaks of culinary excellence. Highly recommend!", rating: 5 },
+    { name: "[GUEST_1]", text: "An absolutely divine dining experience. The ambiance and flavors are unmatched in Nairobi.", rating: 5 },
+    { name: "[GUEST_2]", text: "GreenLeaf is our go-to for celebrations. Every dish tells a story of quality and passion.", rating: 5 },
+    { name: "[GUEST_3]", text: "From the cocktails to the desserts, every detail speaks of culinary excellence. Highly recommend!", rating: 5 },
 ];
 
 const GALLERY = [

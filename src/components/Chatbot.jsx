@@ -62,7 +62,7 @@ export default function Chatbot() {
                 break;
             case "Contact Details":
                 addBotMessage(
-                    "📍 Kamakis, Kenya\n📞 0712092244\n📧 info@greenleafkitchen.co.ke"
+                    "📍 [LOCATION]\n📞 [PHONE_NUMBER]\n📧 [EMAIL_ADDRESS]"
                 );
                 break;
             default:
@@ -153,8 +153,8 @@ export default function Chatbot() {
                                 >
                                     <div
                                         className={`max-w-[80%] px-4 py-2.5 rounded-2xl text-sm whitespace-pre-line ${msg.from === "user"
-                                                ? "bg-accent text-luxury rounded-br-sm"
-                                                : "bg-[#1a1a1a] text-luxury/80 rounded-bl-sm"
+                                            ? "bg-accent text-luxury rounded-br-sm"
+                                            : "bg-[#1a1a1a] text-luxury/80 rounded-bl-sm"
                                             }`}
                                     >
                                         {msg.text}
@@ -210,7 +210,7 @@ export default function Chatbot() {
 
                         {/* WhatsApp CTA */}
                         <a
-                            href="https://wa.me/254712092244"
+                            href="[WHATSAPP_LINK]"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block text-center text-xs text-highlight bg-accent/10 py-2 hover:bg-accent/20 transition-colors"

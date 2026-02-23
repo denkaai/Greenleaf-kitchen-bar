@@ -41,7 +41,7 @@ export default function About() {
                         <h2 className="font-heading text-4xl text-luxury mb-6">A Journey of Flavor</h2>
                         <p className="text-luxury/50 text-lg leading-relaxed mb-6">
                             GreenLeaf Kitchen & Bar was born from a passion for bringing the finest
-                            culinary experiences to Kamakis. What started as a small kitchen with a
+                            culinary experiences to [LOCATION]. What started as a small kitchen with a
                             big dream has grown into a beloved dining destination.
                         </p>
                         <p className="text-luxury/50 text-lg leading-relaxed">
@@ -119,16 +119,16 @@ export default function About() {
                     </motion.div>
                     <motion.div {...fadeUp} transition={{ delay: 0.2 }}>
                         <p className="text-highlight uppercase tracking-[6px] text-sm mb-4">Meet the Chef</p>
-                        <h2 className="font-heading text-4xl text-luxury mb-2">Chef Daniel Omondi</h2>
+                        <h2 className="font-heading text-4xl text-luxury mb-2">[CHEF_NAME]</h2>
                         <p className="text-highlight text-sm uppercase tracking-wider mb-6">Executive Chef</p>
                         <p className="text-luxury/50 text-lg leading-relaxed mb-6">
                             With over 15 years of culinary experience across Nairobi, Paris, and
-                            Cape Town, Chef Daniel brings a unique blend of African heritage
+                            Cape Town, [CHEF_NAME] brings a unique blend of African heritage
                             and global sophistication to every plate at GreenLeaf.
                         </p>
                         <p className="text-luxury/50 text-lg leading-relaxed">
                             His philosophy is simple: let the ingredients speak. By championing
-                            local farmers and seasonal produce, Chef Daniel creates dishes that
+                            local farmers and seasonal produce, [CHEF_NAME] creates dishes that
                             are both deeply rooted and daringly innovative.
                         </p>
                     </motion.div>
